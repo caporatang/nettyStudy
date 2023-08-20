@@ -1,2 +1,3 @@
 # Netty Study Repo!
-# 책....을 어떻게 구하지
+# 자바 네트워크 소녀 Netty
+# Netty in Action
