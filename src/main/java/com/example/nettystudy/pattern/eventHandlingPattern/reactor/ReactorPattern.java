@@ -11,7 +11,7 @@ package com.example.nettystudy.pattern.eventHandlingPattern.reactor;
  * -------------------------------------------------------
  * 2023/08/21        taeil                   최초생성
  */
-public class Reactor {
+public class ReactorPattern {
     // reactor 패턴
 
     // reactor패턴은 이벤트 핸들 패턴의 전형적인 모습이다.
