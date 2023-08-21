@@ -22,7 +22,7 @@ public class Proactor {
     // 지시하게 되면 비동기 프로세스가 가능한 일거리들을 demultiplexing한 뒤, 작업까지 비동기로 처리한다.
     // 그리고 작업이 완료되면 비동기 프로세스가 completion dispatch에게 이벤트를 넘기고 dispatcher는 적절한 completion handler(Queue)에 이벤트를 dispatch 해준다.
     // Reactor에서 event가 작업이 가능함을 알리는 event였다면, Proactor에서 event는 작업의 완료를 알리는 event다.
-    // completion handler에 eventrk dispatch 되면 completion handler는 미리 정해진 콜백을 호출하여 process event를 처리한다.
+    // completion handler에 event가 dispatch 되면 completion handler는 미리 정해진 콜백을 호출하여 process event를 처리한다.
 
     // 동작 과정
     // proactor는 비동기 작업을 지시하고 완료 이벤트를 받을 completion handler를 등록한다.(initiate)
