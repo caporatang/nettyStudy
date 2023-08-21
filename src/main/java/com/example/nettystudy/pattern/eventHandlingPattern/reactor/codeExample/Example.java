@@ -20,4 +20,15 @@ public class Example {
 
     // 해결법 : 중간에 Dispatcher 객체를 하나 두고, 이벤트 요청을 미리 매핑된 이벤트 핸들러에 던짐
     // 실제 이벤트에 대한 처리는 이벤트 핸들러가 처리 하도록 하면 된다.
+
+
+    public static void main(String[] args) {
+        int port = 5000;
+
+        Reactor reactor = new Reactor(port);
+        reactor.registerHandler(new SamsungDeviceEventHandler());
+        reactor.registerHandler(new LGDeviceEventHandler());
+
+        reactor.startServer();
+    }
 }
