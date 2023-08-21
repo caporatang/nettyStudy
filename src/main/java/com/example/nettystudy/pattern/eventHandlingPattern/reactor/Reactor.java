@@ -19,6 +19,7 @@ public class Reactor {
     // reactor는 이벤트가 발생하길 기다리고, 이벤트가 발생하면 event handler에게 이벤트를 발송한다.
     // application에서 event를 대기하고 분할하는 작업을 하지 않아도 동작할 수 있기 때문에 이벤트 multiplexing을 구현하는데 좋은 구조이다.
 
+    // 동작 과정 :
     // 이벤트에 반응하는 Reactor를 만들고 reactor에 이벤트를 처리할 event handler들을 등록한다. (initiate)
     // reactor는 이벤트가 발생하기를 기다린다. (receive)
     // 이벤트가 발생하면 이벤트를 처리할 event handler 단위로 분할한다. (demultiplex)
