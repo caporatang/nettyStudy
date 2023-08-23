@@ -1,4 +1,4 @@
-package com.example.nettystudy.netty.chapter1.echoServer;
+package com.example.nettystudy.netty.chapter1.echoServer.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
