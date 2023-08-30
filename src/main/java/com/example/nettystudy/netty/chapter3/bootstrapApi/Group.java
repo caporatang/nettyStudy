@@ -1,9 +1,4 @@
-package com.example.nettystudy.netty.chapter3.bootstrapApi.group;
-
-import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.Channel;
-import io.netty.channel.EventLoopGroup;
-import io.netty.channel.ServerChannel;
+package com.example.nettystudy.netty.chapter3.bootstrapApi;
 
 /**
  * packageName : com.example.nettystudy.netty.chapter3.bootstrapApi
