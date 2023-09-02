@@ -1,4 +1,4 @@
-package com.example.nettystudy.netty.chpater4.eventHnadler.channelInboundEvent;
+package com.example.nettystudy.netty.chpater4.eventHnadler.channelInboundEvent.channelRead;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler;
@@ -10,7 +10,7 @@ import java.nio.charset.Charset;
 
 /**
  * packageName : com.example.nettystudy.netty.chpater4.eventHnadler.channelInboundEvent
- * fileName : EchoServerV1Handler
+ * fileName : EchoServerV2Handler
  * author : taeil
  * date : 2023/09/02
  * description :

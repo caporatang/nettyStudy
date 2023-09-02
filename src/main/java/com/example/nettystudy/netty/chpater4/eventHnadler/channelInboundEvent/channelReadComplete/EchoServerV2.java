@@ -1,6 +1,5 @@
-package com.example.nettystudy.netty.chpater4.eventHnadler.channelInboundEvent;
+package com.example.nettystudy.netty.chpater4.eventHnadler.channelInboundEvent.channelReadComplete;
 
-import com.example.nettystudy.netty.chapter1.echoServer.server.EchoServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -11,7 +10,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 /**
  * packageName : com.example.nettystudy.netty.chpater4.eventHnadler.channelInboundEvent
- * fileName : EchoServerV1
+ * fileName : EchoServerV2
  * author : taeil
  * date : 2023/09/02
  * description :
@@ -20,7 +19,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * -------------------------------------------------------
  * 2023/09/02        taeil                   최초생성
  */
-public class EchoServerV1 {
+public class EchoServerV2 {
     public static void main(String[] args) {
         // 에코 서버
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
@@ -33,7 +32,7 @@ public class EchoServerV1 {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ChannelPipeline p = ch.pipeline();
-                            p.addLast(new EchoServerV1Handler());
+                            p.addLast(new EchoServerV2Handler());
                         }
                     });
         } catch (Exception e) {
