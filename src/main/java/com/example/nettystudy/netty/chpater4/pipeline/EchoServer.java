@@ -1,4 +1,4 @@
-package com.example.nettystudy.netty.chpater4;
+package com.example.nettystudy.netty.chpater4.pipeline;
 
 import com.example.nettystudy.netty.chapter1.echoServer.server.EchoServerHandler;
 import io.netty.bootstrap.ServerBootstrap;

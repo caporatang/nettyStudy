@@ -1,4 +1,4 @@
-package com.example.nettystudy.netty.chpater4;
+package com.example.nettystudy.netty.chpater4.pipeline;
 
 /**
  * packageName : com.example.nettystudy.netty.chpater4
