@@ -22,5 +22,5 @@ public class ChannelRegistered {
 
     // 클라이언트에서는 서버 접속을 위한 connect 메서드를 수행할 때 channelRegistered 이벤트가 발생한다.
     // channelRegistered 이벤트는 서버와 클라이언트에 상관없이 새로운 채널이 생성되는 시점에 발생한다.
-    
+
 }
