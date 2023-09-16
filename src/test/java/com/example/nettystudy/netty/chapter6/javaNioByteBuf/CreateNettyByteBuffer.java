@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class CreateNettyByteBuffer {
     // 버퍼를 생성할떄 꼭 인수에 생성할 바이트 버퍼의 크기를 지정하지 않고 호출도 가능하다. -> 네티의 지정된 기본값 256 바이트 크기의 바이트 버퍼가 생성된다.
-    
+
     @Test
     void createUnpooledHeapBufferTest() {
         // 바이트 버퍼 풀을 사용하지 않는 11바이트 크기의 힙 버퍼 생성
