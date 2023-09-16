@@ -64,7 +64,7 @@ class UseNettyByteBufferTest {
 
         // 주어진 바이트 버퍼를 초기화하는 clear -> 주어진 버퍼의 읽기 인덱스와 쓰기 인덱스 값을 모두 0으로 변경
         buf.clear();
-        
+
         assertEquals(0, buf.readableBytes());
         assertEquals(11, buf.writableBytes());
 
